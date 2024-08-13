@@ -1,0 +1,8 @@
+site_name: AI / Data Development Standards
+site_url: https://defra.github.io/ai-data-development-standards/
+theme:
+  name: material
+  logo: img/favicon.png
+  favicon: img/favicon.ico
+  palette:
+    primary: black

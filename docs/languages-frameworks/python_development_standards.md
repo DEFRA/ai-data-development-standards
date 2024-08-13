@@ -41,27 +41,27 @@ Ruff can ignore particular lines or files. You can specify rule exemptions per d
 ### Common Configuration
 
 An example `pyproject.toml` configuration:
+``` toml title="pyproject.toml" linenums="1"
+[tool.black]
+line-length = 120
 
-    [tool.black]
-    line-length = 120
-
-    [tool.ruff]
-    line-length = 120
-    target-version = "py311"
-    select = [
-        "E",  # pycodestyle
-        "W",  # pycodestyle
-        "F",  # pyflakes
-        "I",  # isort
-        "B",  # flake8-bugbear
-        "C90",  # mccabe cyclomatic complexity
-        "G",  # flake8-logging-format
-    ]
-    ignore = []
-    exclude = [
-        "migrations/versions/"
-    ]
-
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+select = [
+    "E",  # pycodestyle
+    "W",  # pycodestyle
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C90",  # mccabe cyclomatic complexity
+    "G",  # flake8-logging-format
+]
+ignore = []
+exclude = [
+    "migrations/versions/"
+]
+```
 ## Environments
 
 - Use `Pyenv` to manage different Python versions

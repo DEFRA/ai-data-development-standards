@@ -5,10 +5,6 @@ The purpose of the standards are to ensure that delivery supports the Architectu
 
 The guidance provides developers with quick access to resources and processes to best support the standards and delivery.
 
-## Contents
-
-- [Python development standards](python_development_standards.md)
-
 ## Defra standards
 
 The standards and guidance contained here is intended to be AI and Data context specific layer over Defra's wider development standards.

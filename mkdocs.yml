@@ -2,7 +2,52 @@ site_name: AI / Data Development Standards
 site_url: https://defra.github.io/ai-data-development-standards/
 theme:
   name: material
-  logo: img/favicon.png
-  favicon: img/favicon.ico
+  logo: images/favicon.png
   palette:
-    primary: black
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: blue grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - content.code.select
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Languages and Frameworks:
+    - Python: languages-frameworks/python_development_standards.md
+    - Langchain:
+      - Langchain development: languages-frameworks/langchain/langchain-dev.md
+      - LangGraph: languages-frameworks/langchain/langgraph.md
+      - LangSmith: languages-frameworks/langchain/langsmith.md
+    - CrewAI: languages-frameworks/crewai.md
+    - Haystack: languages-frameworks/haystack.md
+  - Techniques and Models:
+    - AWS AI Services: techniques-models/aws_ai.md
+    - Retrieval-Augmented Generation: techniques-models/rag.md
+  - Tools:
+    - Ollama: tools/ollama.md
+  - Infrastructure:
+    - Azure OpenAI: infrastructure/azure-openai.md
+    - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
+plugins:
+  - glightbox

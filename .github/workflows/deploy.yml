@@ -17,5 +17,18 @@ jobs:
     - run: mkdocs build
     - uses: actions/upload-artifact@v4
       with:
-        name: docs
+        name: github-pages
         path: ./site/
+
+  deploy:
+    runs-on: ubuntu-22.04
+    needs: build
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.output.page_url }}
+
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        id: deployment

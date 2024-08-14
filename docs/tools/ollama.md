@@ -38,7 +38,7 @@ curl http://localhost:11434/v1/chat/completions \n
 ```
 
 ### Via [Postman](https://www.postman.com/downloads/)
-![image](../../images/ollama-postman.png)
+![image](../images/ollama-postman.png)
 
 ### Via Python
 ``` py linenums="1"

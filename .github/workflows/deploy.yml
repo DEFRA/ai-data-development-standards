@@ -18,10 +18,12 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: github-pages
-        path: ./site/
+        path: |
+          site
+          !site/sitemap.xml.gz
+        
 
   deploy:
-    runs-on: ubuntu-22.04
     needs: build
 
     permissions:
@@ -32,7 +34,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.output.page_url }}
 
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/deploy-pages@v4
-      with:
-        id: deployment
+      id: deployment
+

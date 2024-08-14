@@ -3,19 +3,39 @@ name: Page Deploy
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-    - uses: action/checkout@v4
+    - uses: actions/checkout@v4
     - uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    - run: pip install mkdocs
+    - run: pip install mkdocs mkdocs-material mkdocs-glightbox
     - run: mkdocs build
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-pages-artifact@v3
       with:
-        name: docs
-        path: ./site/
+        path: site
+
+  deploy:
+    needs: build
+
+    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.output.page_url }}
+
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/deploy-pages@v4
+      id: deployment
+

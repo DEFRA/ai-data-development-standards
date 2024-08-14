@@ -1,14 +1,7 @@
-# Python Development Standards Guide
+# Python Development Standards
 
+## Overview
 This manual is designed to aid developers in writing clear and consistent Python code across projects at GDS.
-
-## Table of Contents
-
-1. [Code Formatting](#code-formatting)
-2. [Maximum Line Length](#maximum-line-length)
-3. [Linting](#linting)
-4. [Environments](#environments)
-5. [Dependencies](#dependencies)
 
 ## Code Formatting
 

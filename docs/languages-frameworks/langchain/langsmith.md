@@ -1,5 +1,6 @@
 # LangSmith
 
+## Overview
 Langsmith is a freemium addition to Langchain that provides visibility on how your Langchain code is interacting with LLM’s.
 
 ## Usage
@@ -14,5 +15,5 @@ export LANGCHAIN_API_KEY=<your-api-key>
 ```
 4. Run your code as normal, traces will be sent to Langsmith for online inspection.
 
-Traces are available to view. with each step outlined:
+Traces are available to view with each step outlined:
 ![image](../../images/langsmith.png)

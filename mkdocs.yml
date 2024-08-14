@@ -34,16 +34,16 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Languages and Frameworks:
-    - Python: languages-frameworks/python_development_standards.md
+    - Python: languages-frameworks/python.md
     - Langchain:
-      - Langchain development: languages-frameworks/langchain/langchain-dev.md
+      - Langchain Development: languages-frameworks/langchain/langchain-dev.md
       - LangGraph: languages-frameworks/langchain/langgraph.md
       - LangSmith: languages-frameworks/langchain/langsmith.md
     - CrewAI: languages-frameworks/crewai.md
     - Haystack: languages-frameworks/haystack.md
   - Techniques and Models:
     - AWS AI Services: techniques-models/aws_ai.md
-    - Retrieval-Augmented Generation: techniques-models/rag.md
+    - Retrieval Augmented Generation: techniques-models/rag.md
   - Tools:
     - Ollama: tools/ollama.md
   - Infrastructure:

@@ -38,7 +38,6 @@ nav:
     - Langchain:
       - Langchain Development: languages-frameworks/langchain/langchain-dev.md
       - LangGraph: languages-frameworks/langchain/langgraph.md
-      - LangSmith: languages-frameworks/langchain/langsmith.md
     - CrewAI: languages-frameworks/crewai.md
     - Haystack: languages-frameworks/haystack.md
   - Techniques and Models:
@@ -46,6 +45,8 @@ nav:
     - Retrieval Augmented Generation: techniques-models/rag.md
   - Tools:
     - Ollama: tools/ollama.md
+    - LangSmith: tools/langsmith.md
+    - LangFuse: tools/langfuse.md
   - Infrastructure:
     - Azure OpenAI: infrastructure/azure-openai.md
     - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md

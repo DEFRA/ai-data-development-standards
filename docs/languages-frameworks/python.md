@@ -1,6 +1,7 @@
 # Python Development Standards
 
 ## Overview
+
 This manual is designed to aid developers in writing clear and consistent Python code across projects at GDS.
 
 ## Code Formatting
@@ -62,7 +63,9 @@ exclude = [
 - Use `direnv` to manage environment variables
 
 ## Dependencies
+
 ### Applications
+
 For applications or script bundles:
 
 1. Pin specific versions of dependencies for reproducibility
@@ -73,6 +76,7 @@ For applications or script bundles:
 6. Use `requirements-dev.txt` for development/testing dependencies
 
 ### Libraries
+
 For installable Python repositories:
 
 1. Use `setup.py` to specify dependencies and version ranges

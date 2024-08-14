@@ -1,6 +1,7 @@
 # Haystack
 
 ## Overview
+
 Haystack is an open-source framework for building production-ready LLM applications, retrieval-augmented generative pipelines and state-of-the-art search systems that work intelligently over large document collections.
 
 ## Core concepts
@@ -27,6 +28,7 @@ llm_generator = OpenAIGenerator() # Uses the default value from the env var for 
 ```
 
 ## Example: Building Conversational AI with Function Calling
+
 In this example, we’ll create a Haystack pipeline as a function-calling tool and implement applications using Azure OpenAI’s Chat Completion API through `AzureOpenAIChatGenerator` for agent-like behavior.
 
 1. Setting Up Development Environment

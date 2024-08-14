@@ -1,6 +1,7 @@
 # Retrieval Augmented Generation
 
 ## Overview
+
 Retrieval Augmented Generation (RAG) is a process that allows LLM’s to answer domain-specific queries using data it has not seen during it’s training.
 
 LLM’s such as ChatGPT are trained on a huge volume of text and are capable of answering general queries with a high degree of accuracy, however, they don’t respond well when answering queries against data it has not previously seen. in order to improve the LLM, 2 approaches can be taken:
@@ -13,6 +14,7 @@ Fine-tuning involves taking a copy of an LLM and performing additional training 
 RAG is the preferred approach and involves a number of steps:
 
 ## Building Data Repository
+
 The first step is to build a repository of content that will be used for answering domain-specific queries, this would typically include Word documents, PDF documents and web pages, this information is typically stored in a database.
 
 ### Create vector embeddings
@@ -27,6 +29,7 @@ Consider the 2 phrases:
 The phrases are sufficiently different to make pattern matching difficult, however, vector embeddings capture the meaning of the phrases, meaning that these 2 phrases will have very similar vector embeddings, so a users query such as where was the cat sitting? will allow the system to find an answer.
 
 ## Building System Prompt
+
 A prompt is an instruction sent to an LLM to tell it how to respond to a users query, it will typically contain metadata that contains the format the LLM should use to respond and details of the information being sent to the LLM to be answered.
 
 It can typically include a “persona” which is a brief description of the type of person the LLM should impersonate when responding e.g. “You are an IT specialist who answers technical queries”.
@@ -56,6 +59,7 @@ Where `[INST]` are the instructions for the LLM, `[DOCUMENT]` is the users query
 Each different LLM will take prompts in different formats, and will require careful tweaking to ensure the best possible response from the LLM.
 
 ## Fetching Relevant Documents
+
 Documents are retrieved from the data store by comparing vector embeddings in the document store with the users query, the best matching documents are combined into the prompt as the prompts context.
 
 Algorithms such as cosine similarity are used to find matching texts.

@@ -19,6 +19,7 @@ Once running, the model can be accessed via HTTP on port 11434.
 ## Accesing The Model
 
 ### Via Curl
+
 ``` bash linenums="1"
 curl http://localhost:11434/v1/chat/completions \n
     -H "Content-Type: application/json" \n
@@ -38,9 +39,11 @@ curl http://localhost:11434/v1/chat/completions \n
 ```
 
 ### Via [Postman](https://www.postman.com/downloads/)
+
 ![image](../images/ollama-postman.png)
 
 ### Via Python
+
 ``` py linenums="1"
 from openai import OpenAI
 client = OpenAI(
@@ -60,6 +63,7 @@ print(response.choices[0].message.content)
 ```
 
 ### Via JavaScript
+
 ``` js linenums="1"
 import OpenAI from 'openai'
 
@@ -77,6 +81,7 @@ console.log(completion.choices[0].message.content)
 ```
 
 ### Via Langchain
+
 ``` js linenums="1"
 import { OllamaEmbeddings } from "@langchain/community/embeddings/ollama"
 const embeddings = new OllamaEmbeddings({

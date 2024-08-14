@@ -84,3 +84,6 @@ For installable Python repositories:
 3. Use PEP 440 git references for dependencies not available on PyPI
 4. Specify testing dependencies in `tox.ini` (if using Tox) or `requirements-dev.txt`
 
+## References
+
+- [GDS Python Standards](https://gds-way.digital.cabinet-office.gov.uk/manuals/programming-languages/python/python.html#python-style-guide)

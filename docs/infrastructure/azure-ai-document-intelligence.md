@@ -3,6 +3,7 @@
 ## Overview
 
 Azure AI Document Intelligence (previously known as Azure Form Recognizer) is a Azure service that uses machine learning models to enable data extraction and classification of business documents. The service is able to extract data from both structured and unstructured documents such as:
+
 - Forms
 - Receipts
 - Identity documents

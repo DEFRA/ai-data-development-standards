@@ -57,4 +57,28 @@ result = chain.invoke(..., config = { "callbacks": [langfuse_handler] })
 
 Tags enable categorization and filtering of traces.
 
-Implementation requires an additional ‘tags’ field to be added to the Langfuse callback handler function.
+Implementation requires an additional `tags` field to be added to the Langfuse callback handler function.
+
+``` py linenums="1"
+langfuse_handler = CallbackHandler(
+  ...,
+  tags = [
+    "dev",
+    "app-v0.1"
+  ]
+)
+```
+
+The `tags` are then displayed in Traces list in the Langfuse dashboard:
+![image](../images/langfuse-tags.png)
+
+They are also displayed in the Trace details screen:
+![image](../images/langfuse-tags-details.png)
+
+You can also filter dashboard data by tags:
+![image](../images/langfuse-tags-filter.png)
+
+## References
+
+- [Sessions](https://langfuse.com/docs/tracing-features/sessions)
+- [Traces](https://langfuse.com/docs/tracing)

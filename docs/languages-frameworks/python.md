@@ -1,14 +1,8 @@
-# Python Development Standards Guide
+# Python Development Standards
+
+## Overview
 
 This manual is designed to aid developers in writing clear and consistent Python code across projects at GDS.
-
-## Table of Contents
-
-1. [Code Formatting](#code-formatting)
-2. [Maximum Line Length](#maximum-line-length)
-3. [Linting](#linting)
-4. [Environments](#environments)
-5. [Dependencies](#dependencies)
 
 ## Code Formatting
 
@@ -69,7 +63,9 @@ exclude = [
 - Use `direnv` to manage environment variables
 
 ## Dependencies
+
 ### Applications
+
 For applications or script bundles:
 
 1. Pin specific versions of dependencies for reproducibility
@@ -80,6 +76,7 @@ For applications or script bundles:
 6. Use `requirements-dev.txt` for development/testing dependencies
 
 ### Libraries
+
 For installable Python repositories:
 
 1. Use `setup.py` to specify dependencies and version ranges
@@ -87,3 +84,6 @@ For installable Python repositories:
 3. Use PEP 440 git references for dependencies not available on PyPI
 4. Specify testing dependencies in `tox.ini` (if using Tox) or `requirements-dev.txt`
 
+## References
+
+- [GDS Python Standards](https://gds-way.digital.cabinet-office.gov.uk/manuals/programming-languages/python/python.html#python-style-guide)

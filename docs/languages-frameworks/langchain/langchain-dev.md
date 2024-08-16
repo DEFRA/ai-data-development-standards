@@ -1,11 +1,8 @@
 # Langchain Development
 
+## Overview
+
 Langchain is an open-source framework designed to simplify the development of applications powered by large language models (LLMs). It provides a suite of tools and products that enable developers to create context-aware, reasoning applications by leveraging an organization's data and APIs. Langchain offers flexibility in model selection, supports retrieval-augmented generation (RAG), and includes features for debugging, testing, deploying, and monitoring LLM-based systems.
-
-## Table of Contents
-
-1. [Setup](#setup)
-2. [Prompting a Model](#prompting-a-model)
 
 ## Setup
 
@@ -17,6 +14,7 @@ Langchain is an open-source framework designed to simplify the development of ap
 - Set your OpenAI key in an environment variable (optional)
 
 ### Additional packages
+
 - @langchain/community
 - @langchain/core
 - @langchain/nomic
@@ -25,6 +23,7 @@ Langchain is an open-source framework designed to simplify the development of ap
 - cheerio
 
 ## Prompting a Model
+
 ``` js linenums="1"
 import { ChatOpenAI } from "@langchain/openai"
 

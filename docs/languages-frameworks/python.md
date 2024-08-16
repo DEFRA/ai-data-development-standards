@@ -2,7 +2,7 @@
 
 ## Overview
 
-This manual is designed to aid developers in writing clear and consistent Python code across projects at GDS.
+This manual is designed to aid developers in writing clear and consistent Python code across projects.
 
 ## Code Formatting
 

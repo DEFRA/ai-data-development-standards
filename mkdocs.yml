@@ -44,13 +44,13 @@ nav:
     - Retrieval Augmented Generation: techniques-models/rag.md
   - Tools:
     - In Review:
-      - Ollama: tools/ollama.md
+      - Ollama: tools/in-review/ollama.md
     - Archived:
-      - LangFuse: tools/langfuse.md
-      - LangSmith: tools/langsmith.md
+      - LangFuse: tools/archived/langfuse.md
+      - LangSmith: tools/archived/langsmith.md
   - Infrastructure:
     - Azure OpenAI: infrastructure/azure-openai.md
     - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
-    - AWS AI Services: techniques-models/aws_ai.md
+    - AWS AI Services: infrastructure/aws_ai.md
 plugins:
   - glightbox

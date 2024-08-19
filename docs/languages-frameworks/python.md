@@ -1,8 +1,16 @@
 # Python Development Standards
 
+> **NOTE**: Python has yet to be adopted by the tools authority as "Strategic Adopt". Python is **only** for the use in AI and Data and is not permitted outside of this remit. Please adhere to the following [Defra Software Development Standards](https://defra.github.io/software-development-standards/) for building digital services.
+
 ## Overview
 
+> **NOTE**:
+> Python should **not** be used for frontend development. The GDS Service Manual has information on using client-side JavaScript. For server-side JavaScript we use Node.js. The principles of [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) should be used for the design and build of frontend digital services. The building of backend services is limited to the use in AI and Data. A javascript first approach should be taken first, where there is adquate justification, Python can be used.
+>
+
 This manual is designed to aid developers in writing clear and consistent Python code across projects.
+
+Python is the tool of choice for developing artificial intelligence tools (e.g., traditional machine learning and large language models) and is adopted widely by the data analytics and science community. The Adoption of Python for software development in the AI and Data area will allow for easier deployment of artificial intelligence tools. Python’s prevalence in the artificial intelligence world is highlighted by the fact that OpenAI use Pytorch as their standard framework for training their large language models (e.g., GPT models).
 
 ## Code Formatting
 
@@ -35,7 +43,9 @@ Ruff can ignore particular lines or files. You can specify rule exemptions per d
 ### Common Configuration
 
 An example `pyproject.toml` configuration:
+
 ``` toml title="pyproject.toml" linenums="1"
+
 [tool.black]
 line-length = 120
 
@@ -56,7 +66,10 @@ exclude = [
     "migrations/versions/"
 ]
 ```
+
 ## Environments
+
+When a new Python project is created, a new virtual environment should be used to store the dependencies required to run the code within the project. Virtual environments are used to manage dependencies and ensure that the correct version of a dependency is available to the correct project. Additionally, they make the project reproducible as the virtual environment can be recreated on any machine. A text file ‘requirements.txt’ can be created with the command pip freeze > requirements.txt after the required dependencies are installed into the virtual environment. This file contains a list of the installed dependencies and their version number. This file should be included in the Git repository for the project. It should be updated if new dependencies are added to the project. After downloading a project, this file will be used to recreate the virtual environment on another machine, ensuring the code functions correctly. GDS Way suggest using pyenv-virtualenv to manage virtual environments.
 
 - Use `Pyenv` to manage different Python versions
 - Use `pyenv-virtualenv` to manage virtual Python environments
@@ -84,6 +97,20 @@ For installable Python repositories:
 3. Use PEP 440 git references for dependencies not available on PyPI
 4. Specify testing dependencies in `tox.ini` (if using Tox) or `requirements-dev.txt`
 
+#### Recommended Libraries (through a data science lens)
+
+- **Data processing:** Pandas, NumPy, SciPy
+- **Data visualisation / dashboarding:** Matplotlib, Seaborn, Plotly, Dash  
+- **ML/AI/NLP:** Scikit-learn, LightGBM, XGBoost, CatBoost, PyTorch, TensorFlow, Keras, Langchain, LlamaIndex, Transformers, NLTK, spaCy
+- **Statistics:** Statsmodels
+- **HTTP:** requests, PyCrypto
+- **Scraping and automation:** Selenium, BeautifulSoup
+- **Unit testing:** pytest
+- **Logging:** logging
+
 ## References
 
 - [GDS Python Standards](https://gds-way.digital.cabinet-office.gov.uk/manuals/programming-languages/python/python.html#python-style-guide)
+
+- [Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [ML Universal Guide](https://developers.google.com/machine-learning/guides)

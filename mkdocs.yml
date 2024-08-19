@@ -41,14 +41,16 @@ nav:
     - CrewAI: languages-frameworks/crewai.md
     - Haystack: languages-frameworks/haystack.md
   - Techniques and Models:
-    - AWS AI Services: techniques-models/aws_ai.md
     - Retrieval Augmented Generation: techniques-models/rag.md
   - Tools:
-    - Ollama: tools/ollama.md
-    - LangSmith: tools/langsmith.md
-    - LangFuse: tools/langfuse.md
+    - In Review:
+      - Ollama: tools/in-review/ollama.md
+    - Archived:
+      - LangFuse: tools/archived/langfuse.md
+      - LangSmith: tools/archived/langsmith.md
   - Infrastructure:
     - Azure OpenAI: infrastructure/azure-openai.md
     - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
+    - AWS AI Services: infrastructure/aws_ai.md
 plugins:
   - glightbox

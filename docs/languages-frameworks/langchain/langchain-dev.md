@@ -1,5 +1,7 @@
 # Langchain Development
 
+> **NOTE**: The use of LangChain is **under review** for the use in production.
+
 ## Overview
 
 Langchain is an open-source framework designed to simplify the development of applications powered by large language models (LLMs). It provides a suite of tools and products that enable developers to create context-aware, reasoning applications by leveraging an organization's data and APIs. Langchain offers flexibility in model selection, supports retrieval-augmented generation (RAG), and includes features for debugging, testing, deploying, and monitoring LLM-based systems.

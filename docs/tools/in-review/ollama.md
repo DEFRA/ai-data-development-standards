@@ -6,13 +6,13 @@
 
     ---
 
-    Assess
+    Trial
 
 -   :material-thumb-up:{ .lg .middle } __Recommendation__
 
     ---
 
-    Continue with assessment
+    Continue with trialling
 
 </div>
 

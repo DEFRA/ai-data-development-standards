@@ -52,5 +52,11 @@ nav:
     - Azure OpenAI: infrastructure/azure-openai.md
     - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
     - AWS AI Services: infrastructure/aws_ai.md
+    - Guides:
+      - Azure AI Speech: infrastructure/guides/azure-ai-speech.md
+      - Using Custom Data with LLMs: infrastructure/guides/using-custom-data-with-llms-in-azure.md
+  - Tags: tags.md
 plugins:
   - glightbox
+  - tags:
+      tags_file: tags.md

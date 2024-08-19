@@ -1,3 +1,8 @@
+---
+tags:
+  - LLM
+---
+
 # Ollama
 
 <div class="grid cards" markdown>
@@ -12,7 +17,7 @@
 
     ---
 
-    Continue with trialling
+    Evaluate in pilot projects
 
 </div>
 
@@ -58,7 +63,7 @@ curl http://localhost:11434/v1/chat/completions \n
 
 ### Via [Postman](https://www.postman.com/downloads/)
 
-![image](../../images/ollama-postman.png)
+![image](../images/ollama-postman.png)
 
 ### Via Python
 

@@ -14,13 +14,13 @@ tags:
 
     ---
 
-    Assess
+    Adopt
 
 -   :material-thumb-up:{ .lg .middle } __Recommendation__
 
     ---
 
-    Continue with assessment
+    Implement and integrate
 
 </div>
 

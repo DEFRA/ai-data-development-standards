@@ -1,4 +1,25 @@
+---
+tags:
+  - AWS
+---
+
 # AWS AI Services
+
+<div class="grid cards" markdown>
+
+-   :material-radar:{ .lg .middle } __Techradar__
+
+    ---
+
+    Assess
+
+-   :material-thumb-up:{ .lg .middle } __Recommendation__
+
+    ---
+
+    Continue with assessment
+
+</div>
 
 ## Overview
 

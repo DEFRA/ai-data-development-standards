@@ -1,3 +1,9 @@
+---
+tags:
+  - Azure
+  - ML
+---
+
 # Azure AI Document Intelligence
 
 <div class="grid cards" markdown>

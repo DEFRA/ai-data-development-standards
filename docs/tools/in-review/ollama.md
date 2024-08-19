@@ -1,5 +1,21 @@
 # Ollama
 
+<div class="grid cards" markdown>
+
+-   :material-radar:{ .lg .middle } __Techradar__
+
+    ---
+
+    Trial
+
+-   :material-thumb-up:{ .lg .middle } __Recommendation__
+
+    ---
+
+    Continue with trialling
+
+</div>
+
 > **NOTE**: The use of Ollama is **under review**.
 
 ## Overview

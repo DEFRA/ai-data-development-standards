@@ -1,6 +1,6 @@
 # LangFuse
 
-> **NOTE**: This page is for reference. Due the licence changes of LangFuse is **cannot** be used.
+> **NOTE**: This page is for reference  **only**. Due the licence changes of LangFuse it **cannot** be used.
 
 ## Overview
 

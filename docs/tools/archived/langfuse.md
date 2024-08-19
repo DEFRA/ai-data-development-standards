@@ -46,10 +46,10 @@ result = chain.invoke(..., config = { "callbacks": [langfuse_handler] })
 ```
 
 4. In the Langfuse *Dashboard* → *Tracing* → *Sessions* section a list of `sessions` will be displayed:
-![image](../images/langfuse-sessions.png)
+![image](../../images/langfuse-sessions.png)
 
 5. Selecting a `session` in the list enables you to drill down into the various inputs, context, meta data, content and outputs for each query:
-![image](../images/langfuse-session.png)
+![image](../../images/langfuse-session.png)
 
     **Example Code:** [Repo](https://github.com/DEFRA/coreai-techspike-evaluations/blob/dfefd1cde1e05aa9491fd430b1c5e985ffe0b0bc/app/app.py#L17)
 
@@ -72,13 +72,13 @@ langfuse_handler = CallbackHandler(
 ```
 
 The `tags` are then displayed in Traces list in the Langfuse dashboard:
-![image](../images/langfuse-tags.png)
+![image](../images/../langfuse-tags.png)
 
 They are also displayed in the Trace details screen:
-![image](../images/langfuse-tags-details.png)
+![image](../../images/langfuse-tags-details.png)
 
 You can also filter dashboard data by tags:
-![image](../images/langfuse-tags-filter.png)
+![image](../../images/langfuse-tags-filter.png)
 
 ## References
 

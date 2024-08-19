@@ -72,7 +72,7 @@ langfuse_handler = CallbackHandler(
 ```
 
 The `tags` are then displayed in Traces list in the Langfuse dashboard:
-![image](../images/../langfuse-tags.png)
+![image](../../images/langfuse-tags.png)
 
 They are also displayed in the Trace details screen:
 ![image](../../images/langfuse-tags-details.png)

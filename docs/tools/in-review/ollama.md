@@ -1,5 +1,7 @@
 # Ollama
 
+> **NOTE**: The use of Ollama is **under review**.
+
 ## Overview
 
 LLMs such as OpenAI are accessed through an API, require an account with the model provider and are paid for.

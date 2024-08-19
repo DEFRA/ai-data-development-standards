@@ -1,5 +1,7 @@
 # LangFuse
 
+> **NOTE**: This page is for reference. Due the licence changes of LangFuse is **cannot** be used.
+
 ## Overview
 
 Langfuse is an open-source LLM engineering platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications.

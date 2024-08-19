@@ -1,5 +1,7 @@
 # LangSmith
 
+> **NOTE**: This page is for reference. Due the licence and data protection LangSmith is **cannot** be used.
+
 ## Overview
 
 LangSmith is a freemium addition to Langchain that provides visibility on how your Langchain code is interacting with LLMs.

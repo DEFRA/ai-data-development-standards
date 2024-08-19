@@ -1,5 +1,7 @@
 # Haystack
 
+> **NOTE**: The use of Haystack is **under review**.
+
 ## Overview
 
 Haystack is an open-source framework for building production-ready LLM applications, retrieval-augmented generative pipelines and state-of-the-art search systems that work intelligently over large document collections.

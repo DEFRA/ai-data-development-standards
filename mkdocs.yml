@@ -38,7 +38,7 @@ nav:
     - Langchain:
       - Langchain Development: languages-frameworks/langchain/langchain-dev.md
       - LangGraph: languages-frameworks/langchain/langgraph.md
-    - CrewAI: languages-frameworks/crewai.md
+    
     - Haystack: languages-frameworks/haystack.md
   - Techniques and Models:
     - Retrieval Augmented Generation: techniques-models/rag.md
@@ -49,12 +49,15 @@ nav:
       - LangFuse: tools/archived/langfuse.md
       - LangSmith: tools/archived/langsmith.md
   - Infrastructure:
+    - Patterns: infrastructure/patterns.md
     - Azure OpenAI: infrastructure/azure-openai.md
     - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
-    - AWS AI Services: infrastructure/aws_ai.md
-    - Guides:
-      - Azure AI Speech: infrastructure/guides/azure-ai-speech.md
-      - Using Custom Data with LLMs: infrastructure/guides/using-custom-data-with-llms-in-azure.md
+    - AWS AI Services: infrastructure/aws-ai.md
+  - Guides:
+    - Azure:
+      - Azure AI Speech: guides/azure/ai-speech.md
+      - Using Custom Data with LLMs: guides/azure/using-custom-data-with-llms.md
+    - CrewAI: guides/crew-ai.md
   - Tags: tags.md
 plugins:
   - glightbox

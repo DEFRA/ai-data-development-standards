@@ -1,6 +1,6 @@
 # LangSmith
 
-> **NOTE**: This page is for reference **only**. Due the licence and data protection LangSmith **cannot** be used.
+> **NOTE**: This page is for reference **only**. Due to the licence and data protection LangSmith **cannot** be used.
 
 ## Overview
 

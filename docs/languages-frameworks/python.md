@@ -5,7 +5,7 @@
 ## Overview
 
 > **NOTE**:
-> Python should **not** be used for frontend development. The GDS Service Manual has information on using client-side JavaScript. For server-side JavaScript we use Node.js. The principles of [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) should be used for the design and build of frontend digital services. The building of backend services is limited to the use in AI and Data. A javascript first approach should be taken first, where there is adquate justyification, Python can be used.
+> Python should **not** be used for frontend development. The GDS Service Manual has information on using client-side JavaScript. For server-side JavaScript we use Node.js. The principles of [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) should be used for the design and build of frontend digital services. The building of backend services is limited to the use in AI and Data. A javascript first approach should be taken first, where there is adquate justification, Python can be used.
 >
 
 This manual is designed to aid developers in writing clear and consistent Python code across projects.

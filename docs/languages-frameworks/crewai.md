@@ -18,7 +18,6 @@
 
 > **NOTE**: The use of CrewAI is **under review**.
 
-
 ## Overview
 
 CrewAI is a framework designed to coordinate role-playing, autonomous AI agents. It facilitates collaborative intelligence, enabling agents to work together efficiently on complex tasks.

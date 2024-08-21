@@ -1,4 +1,25 @@
+---
+tags:
+  - LLM
+---
+
 # Langchain Development
+
+<div class="grid cards" markdown>
+
+-   :material-radar:{ .lg .middle } __Techradar__
+
+    ---
+
+    Assess
+
+-   :material-thumb-up:{ .lg .middle } __Recommendation__
+
+    ---
+
+    Continue with assessment
+
+</div>
 
 > **NOTE**: The use of LangChain is **under review** for the use in production.
 

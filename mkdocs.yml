@@ -47,13 +47,12 @@ nav:
     - Retrieval Augmented Generation: techniques-models/rag.md
   - Tools:
     - In Review:
-      - Ollama: tools/in-review/ollama.md
+      - Ollama: tools/ollama.md
     - Archived:
       - LangFuse: tools/archived/langfuse.md
       - LangSmith: tools/archived/langsmith.md
   - Infrastructure:
     - Patterns: infrastructure/patterns.md
-    - Azure OpenAI: infrastructure/azure-openai.md
     - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
     - AWS AI Services: infrastructure/aws-ai.md
   - Guides:

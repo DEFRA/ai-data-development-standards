@@ -1,5 +1,21 @@
 # Python Development Standards
 
+<div class="grid cards" markdown>
+
+-   :material-radar:{ .lg .middle } __Techradar__
+
+    ---
+
+    Trial
+
+-   :material-thumb-up:{ .lg .middle } __Recommendation__
+
+    ---
+
+    Please see notes below
+
+</div>
+
 > **NOTE**: Python has yet to be adopted by the tools authority as "Strategic Adopt". Python is **only** for the use in AI and Data and is not permitted outside of this remit. Please adhere to the following [Defra Software Development Standards](https://defra.github.io/software-development-standards/) for building digital services.
 
 ## Overview

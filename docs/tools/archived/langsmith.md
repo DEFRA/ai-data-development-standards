@@ -1,4 +1,25 @@
+---
+tags:
+  - LLM evaluation
+---
+
 # LangSmith
+
+<div class="grid cards" markdown>
+
+-   :material-radar:{ .lg .middle } __Techradar__
+
+    ---
+
+    Archived
+
+-   :material-thumb-up:{ .lg .middle } __Recommendation__
+
+    ---
+
+    Do not adopt
+
+</div>
 
 > **NOTE**: This page is for reference **only**. Due to the licence and data protection LangSmith **cannot** be used.
 

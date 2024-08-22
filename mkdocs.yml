@@ -24,6 +24,7 @@ theme:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - tables
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -41,13 +42,13 @@ nav:
     - Langchain:
       - Langchain Development: languages-frameworks/langchain/langchain-dev.md
       - LangGraph: languages-frameworks/langchain/langgraph.md
-    
     - Haystack: languages-frameworks/haystack.md
+    - CrewAI: languages-frameworks/crewai.md
   - Techniques and Models:
     - Retrieval Augmented Generation: techniques-models/rag.md
   - Tools:
-    - In Review:
-      - Ollama: tools/ollama.md
+    - Ollama: tools/ollama.md
+    - Promptfoo: tools/promptfoo.md
     - Archived:
       - LangFuse: tools/archived/langfuse.md
       - LangSmith: tools/archived/langsmith.md
@@ -55,13 +56,19 @@ nav:
     - Patterns: infrastructure/patterns.md
     - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
     - AWS AI Services: infrastructure/aws-ai.md
+  - Data:
+    - Data Analytics & Science Hub: data/dash.md
   - Guides:
     - Azure:
       - Azure AI Speech: guides/azure/ai-speech.md
       - Using Custom Data with LLMs: guides/azure/using-custom-data-with-llms.md
-    - CrewAI: guides/crew-ai.md
+    - CrewAI:
+      - Project Setup: guides/crewai/project-setup.md
+    - Responsible AI: guides/responsible-ai.md
+  - Useful Links: useful-links.md
   - Tags: tags.md
 plugins:
   - glightbox
+  - search
   - tags:
       tags_file: tags.md

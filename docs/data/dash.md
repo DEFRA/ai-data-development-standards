@@ -1,0 +1,15 @@
+# Data Analytics & Science Hub
+
+## Overview
+
+The Data Analytics & Science Hub (DASH) Programme is developing Defra group's data science capability. It has built the DASH platform which provides tools and software that enable users to carry out data analysis with powerful compute, accessible support and secure access to data. It provides training and support to scientists and analysts across the Defra group in using the platform and developing their data science skills. It is developing the data science community by providing collaboration tools, communication channels sharing resources and promoting events.
+
+## How can I learn more about DASH and data science?
+
+There are many learning resources available on the [DASH Sharepoint](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx?sw=bypass&bypassReason=abandoned&xsdata=MDV8MDJ8fGI3NzhiMzc1ZTAzZjQ4ZDFlNGYzMDhkY2MxYjc2ODhkfDc3MGEyNDUwMDIyNzRjNjI5MGM3NGUzODUzN2YxMTAyfDB8MHw2Mzg1OTgyNDA2NTcwNzMzOTV8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPbVk0WW1FMllXSmtZMkZpWlRReFpqbGlNVFV4WWpjMlpERmlPREU0TmpVMFFIUm9jbVZoWkM1Mk1pOXRaWE56WVdkbGN5OHhOekkwTWpJM01qSTVOekU1fDkyNDBlNzE1YTNkYTRlOTBlNGYzMDhkY2MxYjc2ODhkfGMxOTEwODc5NzZhYjQ2ZTQ4ZDdlNTk3ODY5ZjZjMzRl&sdata=QnlvRlI5RmtHWGpaaUtQdFRtRkJMdEpsWXNlUTIyZTVqdlJzY0xHeHNYaz0%3D&ovuser=770a2450-0227-4c62-90c7-4e38537f1102%2CSebastian.Horon%40defra.gov.uk), including best practice guides, training opportunities and coding materials.
+
+To listen to informal presentations about all things data science, join our monthly [Data Science sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx?xsdata=MDV8MDJ8fGI3NzhiMzc1ZTAzZjQ4ZDFlNGYzMDhkY2MxYjc2ODhkfDc3MGEyNDUwMDIyNzRjNjI5MGM3NGUzODUzN2YxMTAyfDB8MHw2Mzg1OTgyNDA2NTcwNzMzOTV8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPbVk0WW1FMllXSmtZMkZpWlRReFpqbGlNVFV4WWpjMlpERmlPREU0TmpVMFFIUm9jbVZoWkM1Mk1pOXRaWE56WVdkbGN5OHhOekkwTWpJM01qSTVOekU1fDkyNDBlNzE1YTNkYTRlOTBlNGYzMDhkY2MxYjc2ODhkfGMxOTEwODc5NzZhYjQ2ZTQ4ZDdlNTk3ODY5ZjZjMzRl&sdata=OW95ZWdNdGdlQ1BwcWNHNWNHcTV4czV1c3c3SDVLaW9HanVkY0ovOHlDcz0%3D&ovuser=770a2450-0227-4c62-90c7-4e38537f1102%2CSebastian.Horon%40defra.gov.uk#sign-up-to-receive-future-invitations) and [subscribe](http://eepurl.com/h4rdK5) to the quarterly newsletter for events and updates from the community.
+
+You can also sign up for a free unlimited [DataCamp account](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership).
+
+You can email the team directly using the [Data Science mailbox](mailto:datascience@defra.gov.uk).

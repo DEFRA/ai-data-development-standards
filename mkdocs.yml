@@ -49,6 +49,7 @@ nav:
   - Tools:
     - Ollama: tools/ollama.md
     - Promptfoo: tools/promptfoo.md
+    - FMEval: tools/fmeval.md
     - Archived:
       - LangFuse: tools/archived/langfuse.md
       - LangSmith: tools/archived/langsmith.md

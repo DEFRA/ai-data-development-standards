@@ -1,3 +1,9 @@
+---
+tags:
+  - Azure
+  - Evaluation
+---
+
 # Responsible AI
 
 ## GOV.UK

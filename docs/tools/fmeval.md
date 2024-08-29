@@ -52,7 +52,7 @@ To install `fmeval`, use Python 3.10 and run:
 pip install fmeval
 ```
 
-## Usage:
+## Usage
 
 - **ModelRunner:** Create a `ModelRunner` to perform LLM invocations.
 

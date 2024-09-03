@@ -54,7 +54,11 @@ nav:
       - Document Intelligence: tools/azure-ai/document-intelligence.md
     - Ollama: tools/ollama.md
     - Promptfoo: tools/promptfoo.md
+<<<<<<< Updated upstream
     - FMEval: tools/fmeval.md
+=======
+    - AutoGen Studio 2.0: tools/autogen.md
+>>>>>>> Stashed changes
     - Archived:
       - LangFuse: tools/archived/langfuse.md
       - LangSmith: tools/archived/langsmith.md

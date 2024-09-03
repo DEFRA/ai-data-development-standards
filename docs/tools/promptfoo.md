@@ -159,7 +159,7 @@ The output file output.json can be parsed and further actions such as failing th
 
 A pre-configured GitHub action is available to create automatic tests.
 
-Promptfoo can also be integrated into Jest and Mocha/Chai testing environments.
+Promptfoo can also be integrated into Jest and Mocha/Chai testing ironments.
 
 ## Recommended usage
 

@@ -37,6 +37,7 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - Home: index.md
+  - Tech Radar: tech-radar.md
   - Languages and Frameworks:
     - Python: languages-frameworks/python.md
     - Langchain:
@@ -47,14 +48,18 @@ nav:
   - Techniques and Models:
     - Retrieval Augmented Generation: techniques-models/rag.md
   - Tools:
+    - Azure AI:
+      - Content Safety: tools/azure-ai/content-safety.md
+      - Responsible AI: tools/azure-ai/responsible-ai.md
+      - Document Intelligence: tools/azure-ai/document-intelligence.md
     - Ollama: tools/ollama.md
     - Promptfoo: tools/promptfoo.md
+    - FMEval: tools/fmeval.md
     - Archived:
       - LangFuse: tools/archived/langfuse.md
       - LangSmith: tools/archived/langsmith.md
   - Infrastructure:
     - Patterns: infrastructure/patterns.md
-    - Azure AI Document Intelligence: infrastructure/azure-ai-document-intelligence.md
     - AWS AI Services: infrastructure/aws-ai.md
   - Data:
     - Data Analytics & Science Hub: data/dash.md

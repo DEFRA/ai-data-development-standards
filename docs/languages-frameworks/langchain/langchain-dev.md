@@ -11,13 +11,13 @@ tags:
 
     ---
 
-    Assess
+    Hold
 
 -   :material-thumb-up:{ .lg .middle } __Recommendation__
 
     ---
 
-    Continue with assessment
+    Refrain from investing; monitor developments
 
 </div>
 

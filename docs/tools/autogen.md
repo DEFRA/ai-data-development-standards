@@ -83,7 +83,7 @@ Skills are custom python functions that can be leveraged by agents.
 ``` py linenums="1" title="skill example"
 from typing import List
 import uuid
-import requests  # to perform HTTP requests
+import requests
 from pathlib import Path
 
 from openai import OpenAI

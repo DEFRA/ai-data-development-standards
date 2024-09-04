@@ -171,9 +171,9 @@ Promptfoo is ideally integrated into a CI/CD/MLOps testing pipeline, where model
 
 Promptfoo currently supports the following models:
 
-- OpenAI: requires the environmental variable OPENAI_API_KEY to be set with a valid API key
-- Anthropic: requires the environmental variable ANTHROPIC_API_KEY to be set with a valid API key
-- Azure: requires the environmental variable AZURE_OPENAI_API_KEY to be set with a valid API key
+- OpenAI: requires the environmental variable `OPENAI_API_KEY` to be set with a valid API key
+- Anthropic: requires the environmental variable `ANTHROPIC_API_KEY` to be set with a valid API key
+- Azure: requires the environmental variable `AZURE_OPENAI_API_KEY` to be set with a valid API key
 - Llama
 - Ollama
 - Google Vertex

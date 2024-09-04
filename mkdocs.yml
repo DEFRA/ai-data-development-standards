@@ -55,6 +55,7 @@ nav:
     - Ollama: tools/ollama.md
     - Promptfoo: tools/promptfoo.md
     - FMEval: tools/fmeval.md
+    - AutoGen Studio 2.0: tools/autogen.md
     - Archived:
       - LangFuse: tools/archived/langfuse.md
       - LangSmith: tools/archived/langsmith.md
@@ -67,8 +68,7 @@ nav:
     - Azure:
       - Azure AI Speech: guides/azure/ai-speech.md
       - Using Custom Data with LLMs: guides/azure/using-custom-data-with-llms.md
-    - CrewAI:
-      - Project Setup: guides/crewai/project-setup.md
+    - CrewAI: guides/crewai.md
     - Responsible AI: guides/responsible-ai.md
   - Useful Links: useful-links.md
   - Tags: tags.md
@@ -77,3 +77,5 @@ plugins:
   - search
   - tags:
       tags_file: tags.md
+extra_css:
+  - stylesheets/extra.css

@@ -68,8 +68,7 @@ nav:
     - Azure:
       - Azure AI Speech: guides/azure/ai-speech.md
       - Using Custom Data with LLMs: guides/azure/using-custom-data-with-llms.md
-    - CrewAI:
-      - Project Setup: guides/crewai/project-setup.md
+    - CrewAI: guides/crewai.md
     - Responsible AI: guides/responsible-ai.md
   - Useful Links: useful-links.md
   - Tags: tags.md

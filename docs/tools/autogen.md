@@ -171,6 +171,61 @@ An agent workflow defines how a team of agents collaborates to complete a task. 
 
 Using playground, users can interactively test workflows on tasks and review resulting artifacts (such as images, code, and documents)
 
+#### Example
+
+1. Configure a model (in this case Azure OpenAI) to be used by our agents:
+
+    ![image](../images/autogen-model-config.png)
+
+2. After configuring a model with our API key, we can now define agents:
+
+    <div class="grid cards" markdown>
+
+    -   user_proxy:
+
+        ![image](../images/autogen-user-proxy.png)
+
+    -   travel_groupchat:
+
+        ![image](../images/autogen-agent-config.png)
+
+    -   local_assistant:
+
+        ![image](../images/autogen-local-assistant.png)
+
+    -   planner_assistant:
+
+        ![image](../images/autogen-planner-assistant.png)
+
+    -   language_assistant:
+
+        ![image](../images/autogen-language-assistant.png)
+    </div>
+    
+        and assign models to them:
+        
+        ![image](../images/autogen-agent-model.png)
+
+        Now we'll tell the agent what other agents it can communicate with:
+
+        ![image](../images/autogen-config-agents.png)
+
+3. It's time to link everything up in a workflow:
+
+    ![image](../images/autogen-workflow-config.png)
+
+    ![image](../images/autogen-workflow-agents.png)
+
+4. We now go to the playground tab and create a session with the new workflow:
+
+    ![image](../images/autogen-create-session.png)
+
+5. Now we are ready to test our workflow:
+
+    ![image](../images/autogen-playground-1.png)
+
+    ![image](../images/autogen-playground-2.png)
+
 ## References
 
 - [Official Autogen Studio 2.0 website](https://autogen-studio.com/autogen-studio-ui)

@@ -38,6 +38,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Tech Radar: tech-radar.md
+  - Data:
+    - Data Analytics & Science Hub: data/dash.md
   - Languages and Frameworks:
     - Python: languages-frameworks/python.md
     - Langchain:
@@ -62,8 +64,6 @@ nav:
   - Infrastructure:
     - Patterns: infrastructure/patterns.md
     - AWS AI Services: infrastructure/aws-ai.md
-  - Data:
-    - Data Analytics & Science Hub: data/dash.md
   - Guides:
     - Azure:
       - Azure AI Speech: guides/azure/ai-speech.md

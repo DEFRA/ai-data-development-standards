@@ -16,12 +16,12 @@
 
 </div>
 
-> **NOTE**: Python has yet to be adopted by the tools authority as "Strategic Adopt". Python is **only** for the use in AI and Data and is not permitted outside of this remit. Please adhere to the following [Defra Software Development Standards](https://defra.github.io/software-development-standards/) for building digital services.
+> **NOTE**: Python has yet to be adopted by the tools authority as "Strategic Adopt". Python is **only** for the use in AI and Data and is not permitted outside of this remit. Please adhere to the following [Defra Software Development Standards](https://defra.github.io/software-development-standards/) for building digital services. For the use of Python in data science and data engineering, please refer to the [Data Analytics & Science Hub (DASH)](../data/dash.md) section. The DASH platform provides tools and software that enable users to carry out data analysis with powerful compute, accessible support and secure access to data.
 
 ## Overview
 
 > **NOTE**:
-> Python should **not** be used for frontend development. The GDS Service Manual has information on using client-side JavaScript. For server-side JavaScript we use Node.js. The principles of [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) should be used for the design and build of frontend digital services. The building of backend services is limited to the use in AI and Data. A javascript first approach should be taken first, where there is adquate justification, Python can be used.
+> Python should **not** be used for frontend development. The GDS Service Manual has information on using client-side JavaScript. For server-side JavaScript we use Node.js. The principles of [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) should be used for the design and build of frontend digital services. The building of backend services in Python is limited to the use in AI and Data. A javascript first approach should be taken and where there is adquate justification, Python can then be used.
 
 
 This manual is designed to aid developers in writing clear and consistent Python code across projects.

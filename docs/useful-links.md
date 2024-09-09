@@ -8,6 +8,7 @@
 
 ## Blogs
 
+- [Defra group Artificial Intelligence Strategy](https://defra.sharepoint.com/sites/Defraintranet/SitePages/Chris-Hobley-and-Paul-Mukherjee-%E2%80%93-Defra-group-Artificial-Intelligence-Strategy.aspx)
 - [GOV.UK Chat: The findings of our first generative AI experiment](https://insidegovuk.blog.gov.uk/2024/01/18/the-findings-of-our-first-generative-ai-experiment-gov-uk-chat/)
 - [Experimenting with how generative AI could help GOV.UK users](https://insidegovuk.blog.gov.uk/2024/01/18/experimenting-with-how-generative-ai-could-help-gov-uk-users/)
 - [The use of generative AI in government](https://cddo.blog.gov.uk/2023/06/30/the-use-of-generative-ai-in-government/)

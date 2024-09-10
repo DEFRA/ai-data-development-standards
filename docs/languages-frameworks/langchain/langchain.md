@@ -22,8 +22,6 @@ tags:
 
 </div>
 
-> **NOTE**: The use of LangChain is **under review** for the use in production.
-
 ## Overview
 
 Langchain is a framework for developing applications using Large Language Models (LLM’s), it provides common interfaces for common Natural Language Processing (NLP) tasks to numerous vendors, including:
@@ -40,7 +38,7 @@ Langchain is a framework for developing applications using Large Language Models
 
 By offering a common interface, it is quick and easy to switch out back end providers.
 
-## Recommendation
+## Current Recommendation
 
 **July 2024**
 

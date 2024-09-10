@@ -1,3 +1,8 @@
+---
+tags:
+  - Python
+---
+
 # Python Development Standards
 
 <div class="grid cards" markdown>

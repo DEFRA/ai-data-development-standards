@@ -15,15 +15,15 @@ This is a walkthrough on how to use your own data with Large Language Models (LL
 
 The typical data flow will follow the ingestion of data from a datasource(s), some type of ETL process, creation of vector store and the use of the vector store with an LLM:
     
-![image](../../images/azure-data-flow.png)
+![image](../../images/azure/data-flow.png)
 
 For this walkthrough there are 3 parts involved Blob Storage (document storage), Azure AI Search (vector database) and Azure OpenAI (LLM model). These all form a Hybrid and Symantic Search enviroment for RAG within an LLM model:
     
-![image](../../images/hybrid-search.png)
+![image](../../images/azure/hybrid-search.png)
 
 Example application flow:
 
-![image](../../images/example-flow.png)
+![image](../../images/azure/example-flow.png)
 
 This will guide through the setup of creating and configuring Blob Storage, Azure AI Search and Azure OpenAI along with how the Azure AI Studio can be used for testing.
 
@@ -51,7 +51,7 @@ Before configuring the Azure AI Search, a `ChatGPT` model and an `Embedding` mod
 
 2. Within the Azure Open AI Service open the Azure OpenAI Studio
 
-    ![image](../../images/explore-and-deploy.png)
+    ![image](../../images/azure/explore-and-deploy.png)
 
 3. Within the Azure OpenAI Studio two deployments need creating with the following models:
 
@@ -59,29 +59,29 @@ Before configuring the Azure AI Search, a `ChatGPT` model and an `Embedding` mod
 
           1. Select `Deployments`
 
-              ![image](../../images/deployments.png)
+              ![image](../../images/azure/deployments.png)
 
           2. Select `Create new deployment`
 
-              ![image](../../images/create-new-deployment.png)
+              ![image](../../images/azure/create-new-deployment.png)
 
           3. Select the `gpt-35-turbo` model and a `deployment name`
           
-              ![image](../../images/gpt-deploy.png)
+              ![image](../../images/azure/gpt-deploy.png)
 
     - text-embedding-ada:
 
           1. Select `Deployments`
 
-              ![image](../../images/deployments.png)
+              ![image](../../images/azure/deployments.png)
 
           2. Select `Create new deployment`:
           
-              ![image](../../images/create-new-deployment.png)
+              ![image](../../images/azure/create-new-deployment.png)
 
           3. Select the `text-embedding-ada` model and a `deployment name`
 
-              ![image](../../images/ada-deploy.png)
+              ![image](../../images/azure/ada-deploy.png)
 
 #### 3. Create and Configure Azure AI Search
 
@@ -91,15 +91,15 @@ Before configuring the Azure AI Search, a `ChatGPT` model and an `Embedding` mod
 
 2. Within the Azure AI Search Instance select `Import and vectorize data`:
 
-    ![image](../../images/import-and-vectorize.png)
+    ![image](../../images/azure/import-and-vectorize.png)
 
 3. Setup data connection
 
-    ![image](../../images/setup-data-connection.png)
+    ![image](../../images/azure/setup-data-connection.png)
 
 4. Vectorize and enrich data
 
-    ![image](../../images/vectorize-and-enrich.png)
+    ![image](../../images/azure/vectorize-and-enrich.png)
 
     > **NOTE**: In productionthe authentication type `System assigned` to use `managed identities`.
 
@@ -107,7 +107,7 @@ Before configuring the Azure AI Search, a `ChatGPT` model and an `Embedding` mod
 
 5. Review and create
 
-    ![image](../../images/review-and-create.png)
+    ![image](../../images/azure/review-and-create.png)
 
 When the Azure AI Search is being created, it will create the index and run the indexer. The indexer needs to have finished before a search query can be executed.
 
@@ -120,22 +120,22 @@ When the Azure AI Search is being created, it will create the index and run the 
 
       3. Enter a search term in the search box. This could be a known text within the text documents index within the `Blob Storage Container`
       
-          ![image](../../images/search.png)
+          ![image](../../images/azure/search.png)
  
 
 #### 4. Test within Azure OpenAI Studio
 
 1. Within the Azure Open AI Service open the Azure OpenAI Studio
 
-    ![image](../../images/explore-and-deploy.png)
+    ![image](../../images/azure/explore-and-deploy.png)
 
 2. Click on `Chat`
 
-    ![image](../../images/playground-chat.png)
+    ![image](../../images/azure/playground-chat.png)
 
 3. Within configuration select to required deploment model
 
-    ![image](../../images/configuration.png) 
+    ![image](../../images/azure/configuration.png) 
 
 4. Enter a user query for an item of text within the document store. 
 
@@ -152,57 +152,57 @@ When the Azure AI Search is being created, it will create the index and run the 
 
     1. Select `Add your data` within the Setup section in the playground
 
-        ![image](../../images/setup.png)
+        ![image](../../images/azure/setup.png)
 
     2. Click `Add a data source`
 
-        ![image](../../images/add-data-source.png)
+        ![image](../../images/azure/add-data-source.png)
 
     3. Select data source:
 
         1. The data source is `Azure AI Search`
 
-            ![image](../../images/select-data-source.png)
+            ![image](../../images/azure/select-data-source.png)
 
         2. Select `Azure AI Search Service`
 
-            ![image](../../images/select-azure-ai-search-source.png)
+            ![image](../../images/azure/select-azure-ai-search-source.png)
 
         3. Select `Azure AI Search Index`
 
-            ![image](../../images/select-azure-ai-search-index.png)
+            ![image](../../images/azure/select-azure-ai-search-index.png)
 
         4. Select `Add vector search to the search resource`
 
-            ![image](../../images/add-vector-search.png)
+            ![image](../../images/azure/add-vector-search.png)
 
         5. Select an embedding model to use from the deployment in Azure OpenAI
 
-            ![image](../../images/select-embedding-model.png)
+            ![image](../../images/azure/select-embedding-model.png)
 
         6. Tick the acknowledgement to accept there are charges
 
-            ![image](../../images/select-acknowledgement.png)
+            ![image](../../images/azure/select-acknowledgement.png)
 
     4. Data Management:
 
         1. Select `Search type` of `Hybrid + semantic`
 
-            ![image](../../images/select-search-type.png)
+            ![image](../../images/azure/select-search-type.png)
 
         2. Select an existing semantic search configuration
 
-            ![image](../../images/select-semantic-config.png)
+            ![image](../../images/azure/select-semantic-config.png)
 
         3. Tick the acknowledgements
 
-            ![image](../../images/tick-acknowledgements.png)
+            ![image](../../images/azure/tick-acknowledgements.png)
 
     5. Review and finish
 
         1. Save and close
 
-            ![image](../../images/save-and-close.png)
+            ![image](../../images/azure/save-and-close.png)
  
 
 6. Re-test

@@ -1,3 +1,10 @@
 img {
   border-radius: 8px;
 }
+.cards ul li p {
+  text-align: center;
+}
+
+.cards ul li img {
+  height: 200px;
+}

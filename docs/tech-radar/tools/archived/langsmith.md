@@ -41,4 +41,4 @@ export LANGCHAIN_API_KEY=<your-api-key>
 
 Traces are available to view with each step outlined:
 
-![image](../../images/langsmith.png)
+![image](../../../images/langsmith.png)

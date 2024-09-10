@@ -39,7 +39,7 @@ Azure AI Content Safety provides tools to detect and moderate harmful content in
 
 ## Getting Started with Azure AI Content Safety
 
-![image](../../images/content-safety.png)
+![image](../../../images/content-safety.png)
 
 ## Security and Access Control
 

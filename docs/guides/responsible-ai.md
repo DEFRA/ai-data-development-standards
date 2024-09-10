@@ -12,7 +12,7 @@ Please refer to: [GovUK Responsible AI Toolkit](https://www.gov.uk/government/co
 
 ## Microsoft
 
-Please refer to [Azure AI Responsible AI](../tools/azure-ai/responsible-ai.md)
+Please refer to [Azure AI Responsible AI](../tech-radar/tools/azure-ai/responsible-ai.md)
 
 ## General
 

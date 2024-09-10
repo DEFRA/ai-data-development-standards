@@ -1,3 +1,8 @@
+---
+tags:
+  - LangChain
+---
+
 # Ministerial Correspondance
 
 ## Overview

@@ -1,6 +1,6 @@
 ---
 tags:
-  - LLM evaluation
+  - Evaluation
 ---
 
 # LangSmith

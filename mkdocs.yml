@@ -11,7 +11,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -38,12 +37,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Tech Radar: tech-radar.md
-  - Data:
-    - Data Analytics & Science Hub: data/dash.md
   - Languages and Frameworks:
     - Python: languages-frameworks/python.md
     - Langchain:
-      - Langchain Development: languages-frameworks/langchain/langchain-dev.md
+      - Overview: languages-frameworks/langchain/langchain.md
       - LangGraph: languages-frameworks/langchain/langgraph.md
     - Haystack: languages-frameworks/haystack.md
     - CrewAI: languages-frameworks/crewai.md
@@ -64,12 +61,18 @@ nav:
   - Infrastructure:
     - Patterns: infrastructure/patterns.md
     - AWS AI Services: infrastructure/aws-ai.md
+  - Data:
+    - Data Analytics & Science Hub: data/dash.md
   - Guides:
     - Azure:
       - Azure AI Speech: guides/azure/ai-speech.md
       - Using Custom Data with LLMs: guides/azure/using-custom-data-with-llms.md
+    - LangChain:      
+      - LangChain Development using JavaScript: guides/langchain/javascript.md
+      - LangChain Development using Python: guides/langchain/python.md
     - CrewAI: guides/crewai.md
     - Responsible AI: guides/responsible-ai.md
+  - Examples: examples.md
   - Useful Links: useful-links.md
   - Tags: tags.md
 plugins:

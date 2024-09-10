@@ -1,7 +1,6 @@
 ---
 tags:
   - Azure
-  - Speech service
 ---
 
 # Azure AI Speech with Azure OpenAI

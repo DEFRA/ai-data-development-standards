@@ -72,7 +72,11 @@ nav:
       - LangChain Development using Python: guides/langchain/python.md
     - CrewAI: guides/crewai.md
     - Responsible AI: guides/responsible-ai.md
-  - Examples: examples.md
+  - Examples:
+    - Overview: examples/index.md
+    - Ministerial Correspondance: examples/mcu.md
+    - CFFLD Feedback Triage: examples/cffld.md
+    - Data PoC: examples/data-poc.md
   - Useful Links: useful-links.md
   - Tags: tags.md
 plugins:

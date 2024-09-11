@@ -21,7 +21,7 @@ tags:
 
 </div>
 
-> **NOTE**: Python has yet to be adopted by the tools authority as "Strategic Adopt". Python is **only** for the use in AI and Data and is not permitted outside of this remit. Please adhere to the following [Defra Software Development Standards](https://defra.github.io/software-development-standards/) for building digital services. For the use of Python in data science and data engineering, please refer to the [Data Analytics & Science Hub (DASH)](../data/dash.md) section. The DASH platform provides tools and software that enable users to carry out data analysis with powerful compute, accessible support and secure access to data.
+> **NOTE**: Python has yet to be adopted by the tools authority as "Strategic Adopt". Python is **only** for the use in AI and Data and is not permitted outside of this remit. Please adhere to the following [Defra Software Development Standards](https://defra.github.io/software-development-standards/) for building digital services. For the use of Python in data science and data engineering, please refer to the [Data Analytics & Science Hub (DASH)](../../data/dash.md) section. The DASH platform provides tools and software that enable users to carry out data analysis with powerful compute, accessible support and secure access to data.
 
 ## Overview
 

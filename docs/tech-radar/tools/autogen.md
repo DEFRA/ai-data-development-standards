@@ -66,7 +66,7 @@ python = ">=3.11,<3.13"
 
     You should see something like this:
 
-    ![image](../images/autogen/homepage.png)
+    ![image](../../images/autogen/homepage.png)
 
 ## AutoGen Studio Features
 
@@ -78,7 +78,7 @@ The build section allows you to create skills, agents and workflows, as well as 
 
 Skills are custom python functions that can be leveraged by agents.
 
-![image](../images/autogen/skills.png)
+![image](../../images/autogen/skills.png)
 
 ``` py linenums="1" title="skill example"
 from typing import List
@@ -140,16 +140,16 @@ def generate_and_save_images(query: str, image_size: str = "1024x1024") -> List[
 
 Models represent configurations of large language models (LLM). Like skills, models can be linked to an agent specification. AutoGen Studio supports various model types, including OpenAI models, Azure OpenAI models, and Gemini models, as well as any other model provider that adheres to the OpenAI endpoint specification.
 
-![image](../images/autogen/models.png)
+![image](../../images/autogen/models.png)
 
 #### Agents
 Agents specify properties for an AutoGen agent, like `System Message`, `Temperature`, `Max Tokens`, `Agent Default Auto Reply`, as well as which models and skills the agent can use. Currently `UserProxyAgent` and `AssistantAgent` and `GroupChat` agent abstractions are supported:
 
-![image](../images/autogen/agents.png)
+![image](../../images/autogen/agents.png)
 
 After Choosing an agent type, you can specify its properties:
 
-![image](../images/autogen/agent-props.png)
+![image](../../images/autogen/agent-props.png)
 
 #### Workflows
 
@@ -159,13 +159,13 @@ An agent workflow defines how a team of agents collaborates to complete a task. 
 
     This workflow involves initiating a conversation between agents to accomplish a task. In AutoGen Studio, you define an initiator agent and a receiver agent, with the receiver selected from a list of previously created agents. If the receiver is a GroupChat agent (containing multiple agents), the communication pattern among those agents is controlled by the `speaker_selection_method` parameter in the GroupChat agent configuration.
 
-    ![image](../images/autogen/autonomous-chat.png)
+    ![image](../../images/autogen/autonomous-chat.png)
 
 2. **Sequential Chat**
 
     In this workflow, users specify a list of `AssistantAgent` agents that execute sequentially to complete a task. During runtime, each `AssistantAgent` is paired with a `UserProxyAgent` and engages in a chat to process the input task. The result of each exchange is summarized and passed to the next `AssistantAgent` in the sequence, along with its `UserProxyAgent`. This process continues until the final `AssistantAgent` in the sequence completes the task.
 
-    ![image](../images/autogen/sequential-chat.png)
+    ![image](../../images/autogen/sequential-chat.png)
 
 ### Playground
 
@@ -175,7 +175,7 @@ Using playground, users can interactively test workflows on tasks and review res
 
 1. Configure a model (in this case Azure OpenAI) to be used by our agents:
 
-    ![image](../images/autogen/model-config.png)
+    ![image](../../images/autogen/model-config.png)
 
 2. After configuring a model with our API key, we can now define agents:
 
@@ -183,48 +183,48 @@ Using playground, users can interactively test workflows on tasks and review res
 
     -   user_proxy:
 
-        ![image](../images/autogen/user-proxy.png)
+        ![image](../../images/autogen/user-proxy.png)
 
     -   travel_groupchat:
 
-        ![image](../images/autogen/agent-config.png)
+        ![image](../../images/autogen/agent-config.png)
 
     -   local_assistant:
 
-        ![image](../images/autogen/local-assistant.png)
+        ![image](../../images/autogen/local-assistant.png)
 
     -   planner_assistant:
 
-        ![image](../images/autogen/planner-assistant.png)
+        ![image](../../images/autogen/planner-assistant.png)
 
     -   language_assistant:
 
-        ![image](../images/autogen/language-assistant.png)
+        ![image](../../images/autogen/language-assistant.png)
     </div>
     
         and assign models to them:
         
-        ![image](../images/autogen/agent-model.png)
+        ![image](../../images/autogen/agent-model.png)
 
         Now we'll tell the agent what other agents it can communicate with:
 
-        ![image](../images/autogen/config-agents.png)
+        ![image](../../images/autogen/config-agents.png)
 
 3. It's time to link everything up in a workflow:
 
-    ![image](../images/autogen/workflow-config.png)
+    ![image](../../images/autogen/workflow-config.png)
 
-    ![image](../images/autogen/workflow-agents.png)
+    ![image](../../images/autogen/workflow-agents.png)
 
 4. We now go to the playground tab and create a session with the new workflow:
 
-    ![image](../images/autogen/create-session.png)
+    ![image](../../images/autogen/create-session.png)
 
 5. Now we are ready to test our workflow:
 
-    ![image](../images/autogen/playground-1.png)
+    ![image](../../images/autogen/playground-1.png)
 
-    ![image](../images/autogen/playground-2.png)
+    ![image](../../images/autogen/playground-2.png)
 
 ## References
 

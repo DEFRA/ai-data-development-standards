@@ -31,7 +31,7 @@ The tools are available via open source on [GitHub](https://github.com/microsoft
 
 Enables you to easily flow through different stages of model debugging and decision-making. This customizable experience can be taken in a multitude of directions, from analyzing the model or data holistically, to conducting a deep dive or comparison on cohorts of interest, to explaining and perturbing model predictions for individual instances, and to informing users on business decisions and actions.
 
-![image](../../images/responsible-ai-dashboard.png)
+![image](../../../images/responsible-ai-dashboard.png)
 
 ## Responsible AI Scorecard
 

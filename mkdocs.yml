@@ -77,7 +77,6 @@ nav:
     - Overview: projects/index.md
     - Ministerial Correspondence: projects/mcu.md
     - CFFLD Feedback Triage: projects/cffld.md
-    - Data PoC: projects/data-poc.md
   - Useful Links: useful-links.md
   - Tags: tags.md
 plugins:

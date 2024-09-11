@@ -15,11 +15,5 @@
     ---
 
     [__CFFLD Feedback Triage__ →](./cffld.md)
-    
--   [![image](../images/projects/defra.png)](./data-poc.md)
-
-    ---
-
-    [__Data PoC__ →](./data-poc.md)
 
 </div>

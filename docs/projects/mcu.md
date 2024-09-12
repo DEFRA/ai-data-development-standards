@@ -13,6 +13,6 @@ This system allows users to upload and store a variety of documents that serve a
 
 The unit aims to enhance efficiency in handling ministerial correspondence by leveraging advanced language models to automate initial response drafts, thus reducing the administrative burden on staff.
 
-## Github Repo
+## Github Repos
 
 - [DEFRA/coreai-mcu-core](https://github.com/DEFRA/coreai-mcu-core)

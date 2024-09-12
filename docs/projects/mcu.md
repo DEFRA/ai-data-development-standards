@@ -59,11 +59,19 @@ At the bottom of the page, a user can choose which model and personas should be 
 
 ### Review and customise generated response
 
-The system allows a user to prompt the language model to adjust the response:
+The system allows a user to view the generated response:
+
+![image](../images/projects/mcu/agent-response.png)
+
+The user can also view sources and citations used to generate the response:
+
+![image](../images/projects/mcu/sources.png)
+
+The user can then prompt the language model to adjust the response:
 
 ![image](../images/projects/mcu/customise-response.png)
 
-Once a user is happy with the response, it can then be saved and completed:
+Once a user is happy with the response, it can then be finalised:
 
 ![image](../images/projects/mcu/document-complete.png)
 

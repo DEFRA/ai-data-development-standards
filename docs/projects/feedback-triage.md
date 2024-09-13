@@ -9,7 +9,7 @@ tags:
 
 The Feedback Triage is a Proof of Concept (PoC) system that transforms user feedback into actionable insights.
 
-This PoC automates processing of user feedback using LLM to enrich and transform raw user feedback into easily queryable data.
+This PoC automates processing of user feedback, using LLM to enrich and transform raw user feedback into easily queryable data.
 
 ## Features
 

@@ -6,7 +6,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       primary: blue grey
       toggle:
         icon: material/brightness-7
@@ -36,7 +36,7 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - Home: index.md
-  - Tech Radar: 
+  - Tech Radar:
     - Overview: tech-radar/index.md
     - Languages and Frameworks:
       - Python: tech-radar/languages-frameworks/python.md
@@ -68,7 +68,7 @@ nav:
     - Azure:
       - Azure AI Speech: guides/azure/ai-speech.md
       - Using Custom Data with LLMs: guides/azure/using-custom-data-with-llms.md
-    - LangChain:      
+    - LangChain:
       - LangChain Development using JavaScript: guides/langchain/javascript.md
       - LangChain Development using Python: guides/langchain/python.md
     - CrewAI: guides/crewai.md
@@ -76,7 +76,7 @@ nav:
   - PoC Projects:
     - Overview: projects/index.md
     - Ministerial Correspondence: projects/mcu.md
-    - CFFLD Feedback Triage: projects/cffld.md
+    - Feedback Triage: projects/feedback-triage.md
     - IG Log: projects/ig-log.md
   - Useful Links: useful-links.md
   - Tags: tags.md

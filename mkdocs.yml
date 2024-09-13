@@ -73,7 +73,7 @@ nav:
       - LangChain Development using Python: guides/langchain/python.md
     - CrewAI: guides/crewai.md
     - Responsible AI: guides/responsible-ai.md
-  - Projects:
+  - PoC Projects:
     - Overview: projects/index.md
     - Ministerial Correspondence: projects/mcu.md
     - CFFLD Feedback Triage: projects/cffld.md

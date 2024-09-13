@@ -7,7 +7,13 @@ tags:
 
 ## Overview
 
-The Ministerial Correspondence Unit is a sophisticated tool designed to streamline the management and response of documents and communications directed towards ministers, by leveraging advanced language models to automate initial response drafts, thus reducing the administrative burden on staff.
+The Ministerial Correspondence Unit is a Proof of Concept (PoC) that demonstrates how AI-powered language models can enhance the handling of ministerial communications. It aims to:
+
+- Automate initial drafts of responses to ministerial correspondence
+- Reduce administrative workload for staff
+- Showcase improved efficiency in document management
+
+By leveraging AI, the project illustrates the potential for streamlining communication processes within governmental departments.
 
 ![image](../images/projects/mcu/home.png)
 
@@ -15,7 +21,7 @@ The Ministerial Correspondence Unit is a sophisticated tool designed to streamli
 
 ### Upload documents
 
-This system allows users to upload emails and letters received from the public or other stakeholders that are then triaged by the system to:
+This PoC allows users to upload emails and letters received from the public or other stakeholders that are then triaged by the system to:
 
 - generate summary
 - extract key points and facts 

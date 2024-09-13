@@ -1,6 +1,6 @@
-# Projects
+# PoC Projects
 
-## Selection of our Proofs of Concept
+## Proofs of Concept
 
 <div class="grid cards" markdown>
 

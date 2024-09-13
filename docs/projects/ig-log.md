@@ -2,9 +2,15 @@
 
 ## Overview
 
-The IG Log is a tool designed to capture, store, and analyze interactions with language models. This proof of concept allows users to manage LLM prompts and responses by organizing them into structured projects, sessions, steps, and threads. Each interaction is logged systematically, enabling in-depth analysis of the LLM's behavior and performance over time. 
+The IG Log is a Proof of Concept (PoC) obervatibility platform designed to systematically capture, store, and analyze interactions with large language models (LLMs).
 
-This system provides a streamlined interface for tracking the evolution of LLM outputs, facilitating the identification of patterns, inconsistencies, and areas for optimization. By organizing LLM interactions into manageable units, the application enhances the ability to understand, refine, and audit the language model's responses efficiently.
+By organizing LLM interactions into manageable units, the IG Log enhances users' ability to gain insights from their LLM usage and improve their interaction approach.
+
+## Features
+
+- Systematic logging of each interaction
+- Hierarchical organization of conversations
+- Tools for in-depth analysis of LLM behavior and performance
 
 ## Github Repos
 

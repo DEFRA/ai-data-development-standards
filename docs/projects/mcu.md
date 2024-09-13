@@ -7,11 +7,68 @@ tags:
 
 ## Overview
 
-The Ministerial Correspondence Unit is a sophisticated tool designed to streamline the management and response of documents and communications directed towards ministers. 
+The MCU AI project is a Proof of Concept (PoC) LLM system that showcases how large language models could be used to enhance the handling of ministerial communications. 
 
-This system allows users to upload and store a variety of documents that serve as knowledge repositories for language models. Additionally, users can upload emails and letters received from the public or other stakeholders, which the system processes to generate draft replies. These drafts can be reviewed and adjusted as needed, ensuring that responses are both accurate and contextually appropriate. 
+It aims to:
 
-The unit aims to enhance efficiency in handling ministerial correspondence by leveraging advanced language models to automate initial response drafts, thus reducing the administrative burden on staff.
+- Triage documents to extract key facts and generate summary
+- Automate initial drafts of responses
+- Reduce administrative workload for correspondence drafters
+
+
+
+## Features
+
+- Triages and summarises received correpondence using an LLM
+- Retrieval Augmented Generation (RAG) to generate responses based on policy documents
+- Built to accomodate a range of LLMs from various providers:
+    - Azure OpenAI
+    - Amazon Bedrock
+    - Ollama (for local deployment)
+- Uses custom personas to tailor response tone and language
+- Supports full audit capabilities via response history page and IG Log
+
+## Gallery
+
+![image](../images/projects/mcu/document-queue.png)
+
+<div class="grid cards" markdown>
+
+-   LLM Selection
+
+    ![image](../images/projects/mcu/select-model.png)
+
+-   Persona Selection
+
+    ![image](../images/projects/mcu/select-persona.png)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   Knowledge Selection
+
+    ![image](../images/projects/mcu/select-knowledge.png)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   Sources
+
+    ![image](../images/projects/mcu/sources.png)
+
+</div>
+
+<figure markdown="span">
+
+  <figcaption>Response History</figcaption>
+
+  ![image](../images/projects/mcu/agent-response.png){ width="600" }
+
+</figure>
+
+
 
 ## Github Repos
 

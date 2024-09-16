@@ -15,7 +15,7 @@ This PoC automates processing of user feedback, using LLM to enrich and transfor
 
 - Feedback Analysis Dashboard that displays feedback numbers from last week and total
 - Feedback Q&A: utilizes Agent's GraphQL query building capabilities to retrieve relevant data and then use it to generate answer to user's query
-- Raw Feedback Enrichment leverages LLM to:
+- Utilises LLM to triage feedback received from users to:
     - generate feedback summary
     - extract its key points
     - assign a category and subcategory from predetermined ones

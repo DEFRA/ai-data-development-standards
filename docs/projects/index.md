@@ -16,10 +16,4 @@
 
     [__Feedback Triage__ →](./feedback-triage.md)
 
--   [![image](../images/projects/defra.png)](./ig-log.md)
-
-    ---
-
-    [__IG Log__ →](./ig-log.md)
-
 </div>

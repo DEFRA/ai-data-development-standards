@@ -77,7 +77,6 @@ nav:
     - Overview: projects/index.md
     - Ministerial Correspondence: projects/mcu.md
     - Feedback Triage: projects/feedback-triage.md
-    - IG Log: projects/ig-log.md
   - Useful Links: useful-links.md
   - Tags: tags.md
 plugins:

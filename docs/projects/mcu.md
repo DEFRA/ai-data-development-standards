@@ -1,6 +1,9 @@
 ---
 tags:
   - LangChain
+  - RAG
+  - Azure OpenAI
+  - Amazon Bedrock
 ---
 
 # Ministerial Correspondence
@@ -14,8 +17,6 @@ It aims to:
 - Triage documents to extract key facts and generate summary
 - Automate initial drafts of responses
 - Reduce administrative workload for correspondence drafters
-
-
 
 ## Features
 
@@ -68,7 +69,15 @@ It aims to:
 
 </figure>
 
+## Architecture
 
+<div class="grid cards" markdown>
+
+-   MCU Architecture
+
+    ![image](../images/projects/mcu/crai-mcu-arch.png)
+
+</div>
 
 ## Github Repos
 

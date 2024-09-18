@@ -1,6 +1,9 @@
 ---
 tags:
   - LangChain
+  - LangGraph
+  - Agents
+  - Amazon Bedrock
 ---
 
 # Feedback Triage

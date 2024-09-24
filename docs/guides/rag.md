@@ -2,19 +2,18 @@
 tags:
   - RAG
 ---
-# Retrieval Augmented Generation (RAG)
-
-## RAG Implementation
+# RAG Implementation Guide
 
 ![rag](../images/rag.png)
 
-### Preparation Phase
+## Preparation Phase
 
-#### 1. Define Business Requirements
+### 1. Define Business Requirements
 
-#### 2. Gather Test Documents
+- Clearly outline the specific use cases and goals for the RAG system
+- Identify key performance indicators (KPIs) to measure success
 
-Things to consider during this step:
+### 2. Gather Test Documents
 
 - **Pertinence** - documents must meet the business requirements
 - **Representativeness** - documents should be representative of all the types of documents that your solution will use
@@ -28,17 +27,20 @@ Hints:
 - If using synthetic documents, ensure they are as close to real data as possible
 - You can use LLMs to help evaluate the document quality
 
-#### 3. Gather Test Queries
+### 3. Gather Test Queries
 
-### Chunking Phase
+- Create a diverse set of queries covering various use cases
+- Include edge cases and potential challenging scenarios
 
-#### 1. Perform Document Analysis
+## Chunking Phase
+
+### 1. Perform Document Analysis
 
 - What information should be ignored or excluded?
 - What information should be captured in chunks?
 - How should the document be chunked? (e.g. by sentence or fixed size with overlap)
 
-#### 2. Choose Chunking Method
+### 2. Choose Chunking Method
 
 - **Sentence-based parsing** - breaks text into chunks of complete sentences
 - **Fixed-size parsing (with overlap)** - breaks text into fixed-size chunks with overlap
@@ -58,17 +60,17 @@ Hints:
 | Prebuilt model           | <ul><li>Azure AI Document Intelligence</li><li>Power Automate</li></ul>                   | Low    | Medium/High     |
 | Custom model             | <ul><li>Azure AI Document Intelligence</li><li>Tesseract</li></ul>                        | High   | Medium/High     |
 
-### Enrichment Phase
+## Enrichment Phase
 
-#### 1. Clean Chunks
+### 1. Clean Chunks
 
-- **Lowercase** - embeddings are usually case-sensitive meaning "Cheetah" and "cheetah" would result in a different vector despite having the same logical meaning
-- **Remove stop words** - removing stop words like "a", "an" and "the" would allow both "a cheetah is faster than a puma" and "the cheetah is faster than the puma" to both be vectorially equal to "cheetah faster than puma."
-- **Fix spelling mistakes**
-- **Remove unicode characters**
-- **Normalisation** - expanding abbreviations, converting numbers to words, and expanding contractions like "I'm" to "I am" can help increase the performance of vector searches
+- Lowercase text - embeddings are usually case-sensitive meaning "Cheetah" and "cheetah" would result in a different vector despite having the same logical meaning
+- Remove stop words - removing stop words like "a", "an" and "the" would allow both "a cheetah is faster than a puma" and "the cheetah is faster than the puma" to both be vectorially equal to "cheetah faster than puma."
+- Fix spelling mistakes
+- Remove unicode characters
+- Normalisation (expand abbreviations, convert numbers to words, expand contractions)
 
-#### 2. Augment Chunks with Metadata
+### 2. Augment Chunks with Metadata
 
 Metadata can help filter the chunks prior to the semantic search or be used as part of it. 
 
@@ -81,31 +83,37 @@ Examples of metadata fields:
 - Language
 - Questions that the chunk can answer
 
-### Embedding Phase
+## Embedding Phase
 
-#### 1. Choose Embedding Model
+### 1. Choose Embedding Model
 
 - [Hugging Face Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)
 
-#### 2. Evaluate Embedding Model
+### 2. Evaluate Embedding Model
 
 - Visualise your embeddings using tools such as [t-SNE from Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
 - Calculate embedding distances using [Euclidean](https://www.datacamp.com/tutorial/euclidean-distance) or [Manhattan distance](https://www.datacamp.com/tutorial/manhattan-distance)
 
-### Persisting Phase
+## Persisting Phase
 
 Vector storage Examples:
 
-- Pure vector databases:
-    - Pinecone
-    - Weaviate
-- Full-text search databases:
-    - Elasticsearch
-    - OpenSearch
-- Vector-capable SQL databases:
-    - PostgreSQL Pgvector
-- Vector-capable NoSQL databases:
-    - MongoDB
+    - Pure vector databases: Pinecone, Weaviate
+    - Full-text search databases: Elasticsearch, OpenSearch
+    - Vector-capable SQL databases: PostgreSQL with pgvector
+    - Vector-capable NoSQL databases: MongoDB
+
+## Retrieval Phase
+
+### 1. Implement Semantic Search
+
+- Choose between approximate nearest neighbor (ANN) or exact nearest neighbor search based on performance requirements
+- Implement hybrid search combining semantic and keyword-based approaches for improved results
+
+### 2. Fine-tune Retrieval
+
+- Experiment with different similarity thresholds
+- Implement re-ranking strategies to improve relevance of retrieved chunks
 
 ## Conclusion
 

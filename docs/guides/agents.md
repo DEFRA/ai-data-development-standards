@@ -18,15 +18,15 @@ This page provides an overview of different agent frameworks and types for Large
 
 ## Agent Types
 
-- **Tool-Using Agents** - use external tools and functions (e.g., databases, APIs, search engines, or calculators) to retrieve information or perform actions
+- **Tool-Using Agents** - Use external tools and functions (e.g., databases, APIs, search engines, or calculators) to retrieve information or perform actions
 
-- **Reflex Agents** - make decisions based on current inputs. These agents don’t store previous states or contexts
+- **Reflex Agents** - Make decisions based on current inputs. These agents don’t store previous states or contexts
 
-- **Memory-Augmented Agents** - store past interactions and use them to improve further responses
+- **Memory-Augmented Agents** - Store past interactions and use them to improve further responses
 
-- **Persona-Based Agents** - adopt a specific persona or role, influencing their language, tone, and behavior based on that persona
+- **Persona-Based Agents** - Adopt a specific persona or role, influencing their language, tone, and behavior based on that persona
 
-- **Self-Improving Agents** - iterate and improve on their own outputs by evaluating their performance and learning from mistakes
+- **Self-Improving Agents** - Iterate and improve on their own outputs by evaluating their performance and learning from mistakes
 
 ## Agent Design Patterns
 

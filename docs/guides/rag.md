@@ -22,7 +22,7 @@ tags:
 
 Hints:
 
-- Remember to reduct PII from real documents
+- Remember to redact PII from real documents
 - Have at least two documents for each document type
 - If using synthetic documents, ensure they are as close to real data as possible
 - You can use LLMs to help evaluate the document quality
@@ -49,6 +49,7 @@ Hints:
 - **Document layout analysis** - combines OCR with deep learning to extract document structure and text
 - **Prebuilt model** - uses models pre-trained for specific document types or genres
 - **Custom model** - uses custom models for structured documents where no prebuilt model exists
+- **Manual** - uses human-curated chunks
 
 | Method                   | Tool Examples                                                                             | Effort | Processing Cost |
 | :----------------------- | ----------------------------------------------------------------------------------------- |:------ |:--------------- |
@@ -59,6 +60,7 @@ Hints:
 | Document layout analysis | <ul><li>Azure AI Document Intelligence</li><li>Donut</li></ul>                            | Medium | Medium          |
 | Prebuilt model           | <ul><li>Azure AI Document Intelligence</li><li>Power Automate</li></ul>                   | Low    | Medium/High     |
 | Custom model             | <ul><li>Azure AI Document Intelligence</li><li>Tesseract</li></ul>                        | High   | Medium/High     |
+| Manual                   | <ul><li>Human reviewers</li><li>LabelStudio</li></ul>                                     | High   | Low             |
 
 ## Enrichment Phase
 

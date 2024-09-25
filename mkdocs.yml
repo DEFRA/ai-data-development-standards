@@ -74,7 +74,7 @@ nav:
       - LangChain Development using JavaScript: guides/langchain/javascript.md
       - LangChain Development using Python: guides/langchain/python.md
     - Responsible AI: guides/responsible-ai.md
-    - Retrieval Augmented Generation: guides/rag.md
+    - RAG: guides/rag.md
   - PoC Projects:
     - Overview: projects/index.md
     - Ministerial Correspondence: projects/mcu.md

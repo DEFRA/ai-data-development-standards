@@ -11,7 +11,7 @@ This page provides an overview of different agent frameworks and types for Large
 
 ## Agent Frameworks
 
-- LangChain (Python/JavaScript)
+- LangGraph (Python/JavaScript)
 - Haystack (Python)
 - CrewAI (Python)
 - AutoGen (Python)

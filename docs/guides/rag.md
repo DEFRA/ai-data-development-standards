@@ -15,10 +15,10 @@ tags:
 
 ### 2. Gather Test Documents
 
-- **Pertinence** - documents must meet the business requirements
-- **Representativeness** - documents should be representative of all the types of documents that your solution will use
-- **Physical document quality** - documents need to be in a usable shape, e.g. clear document scans
-- **Document content quality** - documents must have high content quality, e.g. there should not be misspellings or grammatical errors
+- **Pertinence** - Documents must meet the business requirements
+- **Representativeness** - Documents should be representative of all the types of documents that your solution will use
+- **Physical document quality** - Documents need to be in a usable shape, e.g. clear document scans
+- **Document content quality** - Documents must have high content quality, e.g. there should not be misspellings or grammatical errors
 
 Hints:
 
@@ -42,14 +42,14 @@ Hints:
 
 ### 2. Choose Chunking Method
 
-- **Sentence-based parsing** - breaks text into chunks of complete sentences
-- **Fixed-size parsing (with overlap)** - breaks text into fixed-size chunks with overlap
-- **Custom code** - uses text parsing techniques like regex 
-- **LLM augmentation** - generates textual representations of images or summaries of tables using LLM 
-- **Document layout analysis** - combines OCR with deep learning to extract document structure and text
-- **Prebuilt model** - uses models pre-trained for specific document types or genres
-- **Custom model** - uses custom models for structured documents where no prebuilt model exists
-- **Manual** - uses human-curated chunks
+- **Sentence-based parsing** - Breaks text into chunks of complete sentences
+- **Fixed-size parsing (with overlap)** - Breaks text into fixed-size chunks with overlap
+- **Custom code** - Uses text parsing techniques like regex 
+- **LLM augmentation** - Generates textual representations of images or summaries of tables using LLM 
+- **Document layout analysis** - Combines OCR with deep learning to extract document structure and text
+- **Prebuilt model** - Uses models pre-trained for specific document types or genres
+- **Custom model** - Uses custom models for structured documents where no prebuilt model exists
+- **Manual** - Uses human-curated chunks
 
 | Method                   | Tool Examples                                                                             | Effort | Processing Cost |
 |:------------------------ |:----------------------------------------------------------------------------------------- |:------ |:--------------- |
@@ -66,8 +66,8 @@ Hints:
 
 ### 1. Clean Chunks
 
-- Lowercase text - embeddings are usually case-sensitive meaning "Cheetah" and "cheetah" would result in a different vector despite having the same logical meaning
-- Remove stop words - removing stop words like "a", "an" and "the" would allow both "a cheetah is faster than a puma" and "the cheetah is faster than the puma" to both be vectorially equal to "cheetah faster than puma."
+- Lowercase text - Embeddings are usually case-sensitive meaning "Cheetah" and "cheetah" would result in a different vector despite having the same logical meaning
+- Remove stop words - Removing stop words like "a", "an" and "the" would allow both "a cheetah is faster than a puma" and "the cheetah is faster than the puma" to both be vectorially equal to "cheetah faster than puma."
 - Fix spelling mistakes
 - Remove unicode characters
 - Normalisation (expand abbreviations, convert numbers to words, expand contractions)

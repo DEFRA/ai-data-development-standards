@@ -52,7 +52,7 @@ Hints:
 - **Manual** - uses human-curated chunks
 
 | Method                   | Tool Examples                                                                             | Effort | Processing Cost |
-| :----------------------- | ----------------------------------------------------------------------------------------- |:------ |:--------------- |
+|:------------------------ |:----------------------------------------------------------------------------------------- |:------ |:--------------- |
 | Sentence-based parsing   | <ul><li>SpaCy sentence tokenizer</li><li>NLTK sentence tokenizer</li></ul>                | Low    | Low             |
 | Fixed-size parsing       | <ul><li>LangChain recursive text splitter</li><li>Hugging Face chunk visualizer</li></ul> | Low    | Low             |
 | Custom code              | <ul><li>Python (re, regex, BeautifulSoup)</li><li>R (stringr, xml2)</li></ul>             | Medium | Low             |

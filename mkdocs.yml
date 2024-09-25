@@ -65,14 +65,16 @@ nav:
   - Data:
     - Data Analytics & Science Hub: data/dash.md
   - Guides:
+    - Agents: guides/agents.md
     - Azure:
       - Azure AI Speech: guides/azure/ai-speech.md
       - Using Custom Data with LLMs: guides/azure/using-custom-data-with-llms.md
+    - CrewAI: guides/crewai.md
     - LangChain:
       - LangChain Development using JavaScript: guides/langchain/javascript.md
       - LangChain Development using Python: guides/langchain/python.md
-    - CrewAI: guides/crewai.md
     - Responsible AI: guides/responsible-ai.md
+    - RAG: guides/rag.md
   - PoC Projects:
     - Overview: projects/index.md
     - Ministerial Correspondence: projects/mcu.md
@@ -88,3 +90,6 @@ plugins:
       tags_file: tags.md
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js

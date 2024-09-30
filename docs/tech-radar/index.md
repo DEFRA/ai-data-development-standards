@@ -4,4 +4,4 @@
 
 ![image](../images/tech-radar.png)
 
-> **NOTE**: As of **20-08-2024**
+> **NOTE**: As of **30-09-2024**
